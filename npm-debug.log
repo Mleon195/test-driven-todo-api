@@ -1,0 +1,265 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.8.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'mocha',
+1 verbose cli   'Error:',
+1 verbose cli   'No',
+1 verbose cli   'Response',
+1 verbose cli   'From',
+1 verbose cli   'Server' ]
+2 info using npm@3.7.3
+3 info using node@v5.8.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData mocha
+8 silly fetchPackageMetaData Error:
+9 silly fetchPackageMetaData No
+10 silly fetchPackageMetaData Response
+11 silly fetchPackageMetaData From
+12 silly fetchPackageMetaData Server
+13 silly fetchPackageMetaData Error: Unsupported URL Type: Error:
+13 silly fetchPackageMetaData     at parseUrl (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:169:13)
+13 silly fetchPackageMetaData     at npa (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:75:12)
+13 silly fetchPackageMetaData     at module.exports (/usr/local/lib/node_modules/npm/node_modules/realize-package-specifier/index.js:12:15)
+13 silly fetchPackageMetaData     at fetchPackageMetadata (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:54:12)
+13 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/install/deps.js:181:5
+13 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+13 silly fetchPackageMetaData     at Array.forEach (native)
+13 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+13 silly fetchPackageMetaData     at Array.forEach (native)
+13 silly fetchPackageMetaData     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+13 silly fetchPackageMetaData  error for Error: [Error: Unsupported URL Type: Error:]
+14 silly fetchNamedPackageData mocha
+15 silly mapToRegistry name mocha
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/mocha
+19 silly fetchNamedPackageData No
+20 silly mapToRegistry name No
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/No
+24 silly fetchNamedPackageData Response
+25 silly mapToRegistry name Response
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/Response
+29 silly fetchNamedPackageData From
+30 silly mapToRegistry name From
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/From
+34 silly fetchNamedPackageData Server
+35 silly mapToRegistry name Server
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/Server
+39 verbose request uri https://registry.npmjs.org/No
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 12:01:53 PM
+42 verbose request id fca2b059104cc24d
+43 http request GET https://registry.npmjs.org/No
+44 verbose request uri https://registry.npmjs.org/Response
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 12:01:53 PM
+47 http request GET https://registry.npmjs.org/Response
+48 verbose request uri https://registry.npmjs.org/Server
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 12:01:53 PM
+51 http request GET https://registry.npmjs.org/Server
+52 verbose request uri https://registry.npmjs.org/From
+53 verbose request no auth needed
+54 info attempt registry request try #1 at 12:01:53 PM
+55 verbose etag "6FYHOX2YHP8RZNWTM6HPTAWN4"
+56 http request GET https://registry.npmjs.org/From
+57 verbose request uri https://registry.npmjs.org/mocha
+58 verbose request no auth needed
+59 info attempt registry request try #1 at 12:01:53 PM
+60 verbose etag "6XGJI6B2B2S9WLQJQ5RSGVV5Y"
+61 http request GET https://registry.npmjs.org/mocha
+62 http 304 https://registry.npmjs.org/mocha
+63 verbose headers { date: 'Tue, 29 Mar 2016 19:01:54 GMT',
+63 verbose headers   via: '1.1 varnish',
+63 verbose headers   'cache-control': 'max-age=300',
+63 verbose headers   etag: '"6XGJI6B2B2S9WLQJQ5RSGVV5Y"',
+63 verbose headers   age: '67',
+63 verbose headers   connection: 'keep-alive',
+63 verbose headers   'x-served-by': 'cache-iad2139-IAD',
+63 verbose headers   'x-cache': 'HIT',
+63 verbose headers   'x-cache-hits': '1',
+63 verbose headers   'x-timer': 'S1459278114.755079,VS0,VE0',
+63 verbose headers   vary: 'Accept' }
+64 silly get cb [ 304,
+64 silly get   { date: 'Tue, 29 Mar 2016 19:01:54 GMT',
+64 silly get     via: '1.1 varnish',
+64 silly get     'cache-control': 'max-age=300',
+64 silly get     etag: '"6XGJI6B2B2S9WLQJQ5RSGVV5Y"',
+64 silly get     age: '67',
+64 silly get     connection: 'keep-alive',
+64 silly get     'x-served-by': 'cache-iad2139-IAD',
+64 silly get     'x-cache': 'HIT',
+64 silly get     'x-cache-hits': '1',
+64 silly get     'x-timer': 'S1459278114.755079,VS0,VE0',
+64 silly get     vary: 'Accept' } ]
+65 verbose etag https://registry.npmjs.org/mocha from cache
+66 verbose get saving mocha to /Users/marceloleon/.npm/registry.npmjs.org/mocha/.cache.json
+67 verbose correctMkdir /Users/marceloleon/.npm correctMkdir not in flight; initializing
+68 http 404 https://registry.npmjs.org/Server
+69 verbose headers { 'content-type': 'application/json',
+69 verbose headers   'cache-control': 'max-age=0',
+69 verbose headers   'content-length': '2',
+69 verbose headers   'accept-ranges': 'bytes',
+69 verbose headers   date: 'Tue, 29 Mar 2016 19:01:54 GMT',
+69 verbose headers   via: '1.1 varnish',
+69 verbose headers   age: '0',
+69 verbose headers   connection: 'keep-alive',
+69 verbose headers   'x-served-by': 'cache-iad2144-IAD',
+69 verbose headers   'x-cache': 'MISS',
+69 verbose headers   'x-cache-hits': '0',
+69 verbose headers   'x-timer': 'S1459278114.752408,VS0,VE80' }
+70 silly get cb [ 404,
+70 silly get   { 'content-type': 'application/json',
+70 silly get     'cache-control': 'max-age=0',
+70 silly get     'content-length': '2',
+70 silly get     'accept-ranges': 'bytes',
+70 silly get     date: 'Tue, 29 Mar 2016 19:01:54 GMT',
+70 silly get     via: '1.1 varnish',
+70 silly get     age: '0',
+70 silly get     connection: 'keep-alive',
+70 silly get     'x-served-by': 'cache-iad2144-IAD',
+70 silly get     'x-cache': 'MISS',
+70 silly get     'x-cache-hits': '0',
+70 silly get     'x-timer': 'S1459278114.752408,VS0,VE80' } ]
+71 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/Server
+71 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+71 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+71 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+71 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:199:22)
+71 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+71 silly fetchPackageMetaData     at Request.emit (events.js:185:7)
+71 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+71 silly fetchPackageMetaData     at emitOne (events.js:95:20)
+71 silly fetchPackageMetaData     at Request.emit (events.js:182:7)
+71 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:963:12)
+71 silly fetchPackageMetaData  error for Server { [Error: Registry returned 404 for GET on https://registry.npmjs.org/Server] pkgid: 'Server', statusCode: 404, code: 'E404' }
+72 http 404 https://registry.npmjs.org/From
+73 verbose headers { 'content-type': 'application/json',
+73 verbose headers   'cache-control': 'max-age=0',
+73 verbose headers   'content-length': '2',
+73 verbose headers   'accept-ranges': 'bytes',
+73 verbose headers   date: 'Tue, 29 Mar 2016 19:01:54 GMT',
+73 verbose headers   via: '1.1 varnish',
+73 verbose headers   age: '0',
+73 verbose headers   connection: 'keep-alive',
+73 verbose headers   'x-served-by': 'cache-iad2122-IAD',
+73 verbose headers   'x-cache': 'MISS',
+73 verbose headers   'x-cache-hits': '0',
+73 verbose headers   'x-timer': 'S1459278114.751048,VS0,VE86' }
+74 silly get cb [ 304, undefined ]
+75 verbose etag https://registry.npmjs.org/From from cache
+76 verbose get saving from to /Users/marceloleon/.npm/registry.npmjs.org/From/.cache.json
+77 verbose correctMkdir /Users/marceloleon/.npm correctMkdir not in flight; initializing
+78 http 404 https://registry.npmjs.org/Response
+79 verbose headers { 'content-type': 'application/json',
+79 verbose headers   'cache-control': 'max-age=0',
+79 verbose headers   'content-length': '2',
+79 verbose headers   'accept-ranges': 'bytes',
+79 verbose headers   date: 'Tue, 29 Mar 2016 19:01:54 GMT',
+79 verbose headers   via: '1.1 varnish',
+79 verbose headers   age: '0',
+79 verbose headers   connection: 'keep-alive',
+79 verbose headers   'x-served-by': 'cache-iad2120-IAD',
+79 verbose headers   'x-cache': 'MISS',
+79 verbose headers   'x-cache-hits': '0',
+79 verbose headers   'x-timer': 'S1459278114.752793,VS0,VE100' }
+80 silly get cb [ 404,
+80 silly get   { 'content-type': 'application/json',
+80 silly get     'cache-control': 'max-age=0',
+80 silly get     'content-length': '2',
+80 silly get     'accept-ranges': 'bytes',
+80 silly get     date: 'Tue, 29 Mar 2016 19:01:54 GMT',
+80 silly get     via: '1.1 varnish',
+80 silly get     age: '0',
+80 silly get     connection: 'keep-alive',
+80 silly get     'x-served-by': 'cache-iad2120-IAD',
+80 silly get     'x-cache': 'MISS',
+80 silly get     'x-cache-hits': '0',
+80 silly get     'x-timer': 'S1459278114.752793,VS0,VE100' } ]
+81 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/Response
+81 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+81 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+81 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+81 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:199:22)
+81 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+81 silly fetchPackageMetaData     at Request.emit (events.js:185:7)
+81 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+81 silly fetchPackageMetaData     at emitOne (events.js:95:20)
+81 silly fetchPackageMetaData     at Request.emit (events.js:182:7)
+81 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:963:12)
+81 silly fetchPackageMetaData  error for Response { [Error: Registry returned 404 for GET on https://registry.npmjs.org/Response] pkgid: 'Response', statusCode: 404, code: 'E404' }
+82 http 404 https://registry.npmjs.org/No
+83 verbose headers { 'content-type': 'application/json',
+83 verbose headers   'cache-control': 'max-age=0',
+83 verbose headers   'content-length': '2',
+83 verbose headers   'accept-ranges': 'bytes',
+83 verbose headers   date: 'Tue, 29 Mar 2016 19:01:55 GMT',
+83 verbose headers   via: '1.1 varnish',
+83 verbose headers   age: '0',
+83 verbose headers   connection: 'keep-alive',
+83 verbose headers   'x-served-by': 'cache-iad2147-IAD',
+83 verbose headers   'x-cache': 'MISS',
+83 verbose headers   'x-cache-hits': '0',
+83 verbose headers   'x-timer': 'S1459278114.753144,VS0,VE403' }
+84 silly get cb [ 404,
+84 silly get   { 'content-type': 'application/json',
+84 silly get     'cache-control': 'max-age=0',
+84 silly get     'content-length': '2',
+84 silly get     'accept-ranges': 'bytes',
+84 silly get     date: 'Tue, 29 Mar 2016 19:01:55 GMT',
+84 silly get     via: '1.1 varnish',
+84 silly get     age: '0',
+84 silly get     connection: 'keep-alive',
+84 silly get     'x-served-by': 'cache-iad2147-IAD',
+84 silly get     'x-cache': 'MISS',
+84 silly get     'x-cache-hits': '0',
+84 silly get     'x-timer': 'S1459278114.753144,VS0,VE403' } ]
+85 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/No
+85 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+85 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+85 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+85 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:199:22)
+85 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+85 silly fetchPackageMetaData     at Request.emit (events.js:185:7)
+85 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+85 silly fetchPackageMetaData     at emitOne (events.js:95:20)
+85 silly fetchPackageMetaData     at Request.emit (events.js:182:7)
+85 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:963:12)
+85 silly fetchPackageMetaData  error for No { [Error: Registry returned 404 for GET on https://registry.npmjs.org/No] pkgid: 'No', statusCode: 404, code: 'E404' }
+86 silly rollbackFailedOptional Starting
+87 silly rollbackFailedOptional Finishing
+88 silly runTopLevelLifecycles Starting
+89 silly runTopLevelLifecycles Finishing
+90 silly install printInstalled
+91 verbose stack Error: Unsupported URL Type: Error:
+91 verbose stack     at parseUrl (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:169:13)
+91 verbose stack     at npa (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:75:12)
+91 verbose stack     at module.exports (/usr/local/lib/node_modules/npm/node_modules/realize-package-specifier/index.js:12:15)
+91 verbose stack     at fetchPackageMetadata (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:54:12)
+91 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/deps.js:181:5
+91 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+91 verbose stack     at Array.forEach (native)
+91 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+91 verbose stack     at Array.forEach (native)
+91 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+92 verbose cwd /Users/marceloleon/wdi/test-driven-todo-api
+93 error Darwin 15.3.0
+94 error argv "/usr/local/Cellar/node/5.8.0/bin/node" "/usr/local/bin/npm" "install" "-g" "mocha" "Error:" "No" "Response" "From" "Server"
+95 error node v5.8.0
+96 error npm  v3.7.3
+97 error Unsupported URL Type: Error:
+98 error If you need help, you may report this error at:
+98 error     <https://github.com/npm/npm/issues>
+99 verbose exit [ 1, true ]
