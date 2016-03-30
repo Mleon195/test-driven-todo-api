@@ -69,7 +69,7 @@ app.post('/api/todos', function create(req, res) {
 
 });
 
-app.get('/api/todos/:id', function show(req, res) {
+app.get('/api/todos/:id', function show(req, res) {  //id here is an strings
   /* This endpoint will return a single todo with the
    * id specified in the route parameter (:id)
    */
@@ -77,7 +77,7 @@ app.get('/api/todos/:id', function show(req, res) {
    var theRightOne;
    // find the object with this id in todos
    for (var i = 0; i < todos.length; i++){
-     if(todos[i]._id === id){
+     if(todos[i]._id === id){   //id here is a number ways to solve is use parse() or use "=="
       theRightOne = todos[i];
      }
    }
@@ -89,6 +89,9 @@ app.put('/api/todos/:id', function update(req, res) {
    * id specified in the route parameter (:id) and respond
    * with the newly updated todo.
    */
+
+
+
 });
 
 app.delete('/api/todos/:id', function destroy(req, res) {
@@ -96,7 +99,19 @@ app.delete('/api/todos/:id', function destroy(req, res) {
    * id specified in the route parameter (:id) and respond
    * with success.
    */
+   // get todo id from url params (`req.params`)
+    var todoId = parseInt(req.params.id);
+    var todoToDelete = todos.filter(function (todos) {
+      return todo._id == todoId;
+    })[0];
+    todos.splice(todos.indexOf(todoToDelete), 1);
+
+    res.status(200).json(todoToDelete);
+  });
+
+
 });
+
 
 /**********
  * SERVER *
